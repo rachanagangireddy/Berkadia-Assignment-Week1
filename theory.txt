@@ -249,8 +249,8 @@ Node.js uses an event-driven, non-blocking I/O model
 	More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 	Data Structures are 2 types::--
 	Linear data structures                                Non Linear
-  	(sequential access)                                      (not sequential)
-	1. Arrays                                                     1.Trees(graph with no loop)
+  	(sequential access)                                (not sequential)
+	1. Arrays                                     1.Trees(graph with no loop)
 	2. Linked List (node pointer,data)            2.Graphs(collection of vertices and nodes)
 	3. Stack(last in first out)
 	4. Queue(first in first out)
