@@ -1,22 +1,18 @@
- HTTP Methods:
+   HTTP Methods:
 GET,POST,PUT,HEAD,DELETE,PATCH
 
-  GET is used to request data from a specified resource.
+GET is used to request data from a specified resource.
 GET is one of the most common HTTP methods, most used.
-
-  POST is used to send data to a server to create/update a resource , most used.
-
-  PUT is used to send data to a server to create/update a resource.
+POST is used to send data to a server to create/update a resource , most used.
+PUT is used to send data to a server to create/update a resource.
+The DELETE method deletes the specified resource.
+PATCH : When we're doing a partial update, can use HTTP PATCH.
 
 
   Difference between put and post:---
-PUT requests are idempotent.
- Calling the same PUT request multiple times will always gives the same result. 
-
+PUT requests are idempotent. Calling the same PUT request multiple times will always gives the same result. 
 In contrast, calling a POST request repeatedly have side effects of creating the same resource multiple times.
 
-The DELETE method deletes the specified resource.
-PATCH : When we're doing a partial update, can use HTTP PATCH.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,8 +49,7 @@ Improve end user performance
 Shorter latency / response quickly, 
 Less delay jitter
 
-Higher bandwidth
-
+Higher bandwidt
 Increase global availability of content
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -132,15 +127,15 @@ ex: javascript
 
 Asynchronous languages:
 Asynchronous execution avoids this bottleneck problems. 
-You are essentially saying, ìI know this function call is going to take a great deal of time, but my program doesnít want to wait around while it executes.î
+You are essentially saying, ‚ÄúI know this function call is going to take a great deal of time, but my program doesn‚Äôt want to wait around while it executes.‚Äù
 ex:flex, node.js
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-         Multiprogramming ñ 
+         Multiprogramming ‚Äì 
 A computer running more than one program at a time (like running Excel and Firefox simultaneously).
 
-Multitasking ñ Tasks sharing a common resource (like using 1 CPU).
+Multitasking ‚Äì Tasks sharing a common resource (like using 1 CPU).
 
 
 Multithreading is an extension of multitasking.A thread is a basic unit of CPU utilization.
@@ -206,7 +201,7 @@ Non-blocking IO means an IO request is queued straight away and the function ret
 
 The actual IO is then processed later.
 Parallel programming, difficult to code, more control needed
-Node.js is a JavaScript runtime built on Chromeís V8 JavaScript engine.
+Node.js is a JavaScript runtime built on Chrome‚Äôs V8 JavaScript engine.
 
 Node.js uses an event-driven, non-blocking I/O model
 
@@ -215,7 +210,7 @@ Node.js uses an event-driven, non-blocking I/O model
 	Differences between compiled and interpreted languages:--
 	Compiler:
 	a compiler will translate the program directly into code that is specific to the target machine,
-	which is also known as machine code ñ basically code that is specific to a given processor and operating system. 
+	which is also known as machine code ‚Äì basically code that is specific to a given processor and operating system. 
 	Then the computer will run the machine code on its own.
 	A compiled language:
 	parse the program check for syntax errors, check for data types , 
